@@ -19,7 +19,7 @@
 // PARTE 1: CONFIGURACIÓN Y CLIENTE DE SUPABASE
 // ---------------------------------------------------------------------------------
 const SUPABASE_URL = 'https://peiuznumhjdynbffabyq.supabase.co';
-const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBlaXV6bnVtaGpkeW5iZmZhYnlxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTgzNzI2NDYsImV4cCI6MjA3Mzk0ODY0Nn0.vVU32oYJFucSY9N0yGMwSjkJZuCdaA-nQsVxvMCz8nE';
+const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBlaXV6bnVtaGpkeW5iZmZhYnlxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTg3MTE4NTksImV4cCI6MjA3NDI4Nzg1OX0.T6KloEC3W-fpnaqNYxlNWV0aT4FyzxwPUD0UhcqvuJM';
 const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 window.supabase = supabase;
 
@@ -3757,6 +3757,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         });
     }
 });
+
 
 
 
